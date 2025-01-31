@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+
+</head>
+<body>
+  
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2><i class="material-icons">dashboard</i>
+        Dashboard</h2>
+      <nav class="nav-section">
+        <ul class="nav-list">
+          <li>
+            <i class="material-icons">home</i>
+            Home
+          </li>
+          <li>
+            <i class="material-icons">person</i>
+            Profile
+          </li>
+          <li>
+            <i class="material-icons">message</i>
+            Messages
+          </li>
+          <li>
+            <i class="material-icons">history</i>
+            History
+          </li>
+          <li>
+            <i class="material-icons">task</i>
+            Tasks
+          </li>
+          <li>
+            <i class="material-icons">groups</i>
+            Communities
+          </li>
+        </ul>
+      </nav>
+      <!-- 2nd nav section -->
+      <nav class="nav-section">
+        <ul class="nav-list">
+          <li>
+            <i class="material-icons">settings</i>
+            Settings
+          </li>
+          <li>
+            <i class="material-icons">help_center</i>
+            Support
+          </li>
+          <li>
+            <i class="material-icons">verified_user</i>
+            Privacy
+          </li>
+         
+        </ul>
+      </nav>
+    </aside>
+
+    <header class="header-main">
+      <section class="header">
+        <!-- Sidebar Toggle Button -->
+        <button id="sidebar-toggle" class="toggle-btn">
+          <i class="material-icons">menu</i>
+        </button>
+    
+        <!-- Search Bar -->
+        <div class="left-header">
+          <div class="search-container">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Search..." class="search-bar">
+          </div>
+        </div>
+    
+        <!-- Right Section -->
+        <div class="right-header">
+          <span class="material-icons">notifications_active</span>
+    
+          <!-- Dark Mode Toggle -->
+          <button id="dark-mode-toggle" class="toggle-btn">
+            <i class="material-icons">brightness_6</i>
+          </button>
+    
+          <img src="images/profile.jpg" alt="Profile Pic" class="profile-pic">
+          <span class="user-name">Sumant Sagar</span>
+        </div>
+      </section>
+    </header>
+    
+    <main class="main-content">
+      <div class="content-grid">
+        <!-- Projects Section -->
+        <section class="projects">
+          <h3>Your Projects</h3>
+          <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Super Cool Project</h4>
+                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+              </div>
+              <div class="card-icons">
+                <i class="material-icons">star_outline</i>
+                <i class="material-icons">visibility</i>
+                <i class="material-icons">share</i>
+              </div>
+            </div>
+        
+            <!-- Project Card 2 -->
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Impossible App</h4>
+                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+              </div>
+              <div class="card-icons">
+                <i class="material-icons">star_outline</i>
+                <i class="material-icons">visibility</i>
+                <i class="material-icons">share</i>
+              </div>
+            </div>
+        
+            <!-- Project Card 3 -->
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Ad Blocker</h4>
+                <p>Quisque eget rutrum nisi. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
+              </div>
+              <div class="card-icons">
+                <i class="material-icons">star_outline</i>
+                <i class="material-icons">visibility</i>
+                <i class="material-icons">share</i>
+              </div>
+            </div>
+        
+            <!-- Project Card 4 -->
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Less Cool Project</h4>
+                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et.</p>
+              </div>
+              <div class="card-icons">
+                <i class="material-icons">star_outline</i>
+                <i class="material-icons">visibility</i>
+                <i class="material-icons">share</i>
+              </div>
+            </div>
+        
+            <!-- Project Card 5 -->
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Easy Peasy App</h4>
+                <p>Eliam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
+              </div>
+              <div class="card-icons">
+                <i class="material-icons">star_outline</i>
+                <i class="material-icons">visibility</i>
+                <i class="material-icons">share</i>
+              </div>
+            </div>
+        
+            <!-- Project Card 6 -->
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Money Maker</h4>
+                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus.</p>
+              </div>
+              <div class="card-icons">
+                <i class="material-icons">star_outline</i>
+                <i class="material-icons">visibility</i>
+                <i class="material-icons">share</i>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+          <!-- Announcements -->
+          <section class="announcements">
+            <h3>Announcements</h3>
+            <div class="announcements-card">
+              <div class="announcement-item">
+                <h5>Site Maintenance</h5>
+                <p class="announcement-text">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+              </div>
+              
+              <div class="announcement-item">
+                <h5>Community Share Day</h5>
+                <p class="announcement-text">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor..</p>
+              </div>
+              
+              <div class="announcement-item">
+                <h5>Updated Privacy Policy</h5>
+                <p class="announcement-text">Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in...</p>
+              </div>
+            </div>
+          </section>
+
+          </section>
+    
+          <!-- Trending -->
+          <section class="trending">
+            <h3>Trending</h3>
+            <div class="trending-card">
+              <div class="trending-item">
+                <img src="images/tegan.jpg" alt="Tegan" class="trending-avatar">
+                <div class="trending-info">
+                  <div class="trending-user">@tegan</div>
+                  <div class="trending-project">World Peace Builder</div>
+                </div>
+              </div>
+          
+              <div class="trending-item">
+                <img src="images/morgan.jpg" alt="Morgan" class="trending-avatar">
+                <div class="trending-info">
+                  <div class="trending-user">@morgan</div>
+                  <div class="trending-project">Super Cool Project</div>
+                </div>
+              </div>
+          
+              <div class="trending-item">
+                <img src="images/kendall.jpg" alt="Kendall" class="trending-avatar">
+                <div class="trending-info">
+                  <div class="trending-user">@kendall</div>
+                  <div class="trending-project">Life Changing App</div>
+                </div>
+              </div>
+          
+              <div class="trending-item">
+                <img src="images/alex.jpg" alt="Alex" class="trending-avatar">
+                <div class="trending-info">
+                  <div class="trending-user">@alex</div>
+                  <div class="trending-project">No Traffic Maker</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
